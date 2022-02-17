@@ -1,0 +1,21 @@
+{
+    "name": "lhenriquesouz/buscador-cursos",
+    "description": "Projeto que busca cursos",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lhenriquesouz\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lhenriquesouza",
+            "email": "lhsouza005@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/dom-crawler": "^5.4"
+    }
+}
